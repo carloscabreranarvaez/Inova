@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cifer.nova.ciferapp.inova.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jaku"
+                    android:textStyle="normal|bold|italic"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:fontFamily="serif-monospace" />
+
+            </android.support.v7.widget.CardView>
+            <LinearLayout
+                android:layout_width="30sp"
+                android:layout_height="30sp"></LinearLayout>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="22sp" />
+            <LinearLayout
+                android:layout_width="30sp"
+                android:layout_height="30sp"></LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/emailEntrar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Correo Electronico" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_below="@+id/emailEntrar"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="23dp"
+                android:id="@+id/passwordEntrar"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Contraseña" />
+
+            <Button
+                android:text="Entrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordEntrar"
+                android:layout_marginTop="27dp"
+                android:id="@+id/button2"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center" />
+            <!--<TextView
+                android:id="@+id/TextLogin"
+                android:layout_gravity="center"
+                android:text="Olvidaste tu contraseña?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8sp"></LinearLayout>
+            <TextView
+                android:id="@+id/RegIdButton"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrate"
+                android:textColor="@color/colorPrimary"
+                android:layout_below="@+id/button2"
+                android:textSize="12sp" /></LinearLayout>
+
+
+
+</LinearLayout>

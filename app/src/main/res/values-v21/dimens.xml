@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_blank_dimen">80sp</dimen>
+    <dimen name="card_view_elevation_test">2dp</dimen>
+    <dimen name="button_elevation">3dp</dimen>
+    <dimen name="texto_capos_tamaño">200sp</dimen>
+    <dimen name="separador_tamanio">50sp</dimen>
+    <dimen name="activity_horizontal_margin_mini">5sp</dimen>
+</resources>

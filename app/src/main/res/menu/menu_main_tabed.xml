@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cifer.inova.cifer.example.cifer.inova.MainTabedActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/closethis"
+        android:orderInCategory="100"
+        android:title="@string/back_action"
+        android:showAsAction="ifRoom"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_opciones"
+        android:orderInCategory="100"
+        android:title="Opciones"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ayuda"
+        android:orderInCategory="200"
+        android:title="ayuda"
+        app:showAsAction="never" />
+</menu>

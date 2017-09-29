@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">5dp</dimen>
+    <dimen name="space_blank_dimen">80sp</dimen>
+    <dimen name="card_view_elevation_test">2dp</dimen>
+    <dimen name="button_elevation">3dp</dimen>
+    <dimen name="texto_capos_tamaño">200sp</dimen>
+    <dimen name="texto_capos_tamaño_2">100sp</dimen>
+    <dimen name="separador_tamanio">50sp</dimen>
+    <dimen name="activity_horizontal_margin_mini">5sp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="status_bar_height">2dp</dimen>
+
+    <dimen name="navigation_drawer_header_margin">16dp</dimen>
+    <dimen name="status_bar_kitkat_height">0dp</dimen>
+    <dimen name="status_bar_lollipop_height">0dp</dimen>
+    <dimen name="status_bar_margin_top">0dp</dimen>
+    <dimen name="navigation_drawer_header_margin_for_foto">30sp</dimen>
+    <dimen name="height_boton">95dp</dimen>
+    <dimen name="pading_text">25dp</dimen>
+    <dimen name="bton_add_marker">200sp</dimen>
+    <dimen name="dimen_for_rigt_opp">8sp</dimen>
+    <dimen name="dimen_for_left_opp">8sp</dimen>
+</resources>

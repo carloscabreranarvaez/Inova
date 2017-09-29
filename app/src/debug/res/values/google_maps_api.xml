@@ -1,0 +1,20 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=10:FC:05:8F:9B:A6:C2:40:2F:03:51:7C:C4:A6:C4:4A:1B:E8:63:A2;com.example.cifer.inova
+
+    You can also add your credentials to an existing key, using this line:
+    E3:87:2B:87:5D:B0:79:C8:26:20:04:27:D5:8F:84:50:EC:7D:2A:4B;com.example.cifer.inova
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="true">AIzaSyACf9WZ64QZLUa7rWW80F6bzw20nTKjco4
+    </string>
+</resources>

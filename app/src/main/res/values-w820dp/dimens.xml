@@ -1,0 +1,12 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="space_blank_dimen">80sp</dimen>
+    <dimen name="card_view_elevation_test">2dp</dimen>
+    <dimen name="button_elevation">3dp</dimen>
+    <dimen name="texto_capos_tamaño">200sp</dimen>
+    <dimen name="separador_tamanio">50sp</dimen>
+    <dimen name="activity_horizontal_margin_mini">5sp</dimen>
+</resources>

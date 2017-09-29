@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cifer.nova.ciferapp.inova">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/jkuta"
+        android:label="@string/app_name"
+        android:multiArch="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".RegistarseMainThisIsActivity"
+            android:label="@string/title_activity_registarse_main_this_is"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ListaActivity"
+            android:label="@string/title_activity_lista"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- android:clearTaskOnLaunch="true" -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".LocationActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MejorRutaActivity"
+            android:label="@string/title_activity_mejor_ruta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SitiosDescripcionActivity"
+            android:label="@string/title_activity_sitios_descripcion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListaTuristicosActivity"
+            android:label="@string/title_activity_lista_turisticos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BlogMainActivity"
+            android:label="@string/title_activity_blog_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainTabedActivity"
+            android:label="@string/title_activity_main_tabed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JakuBlogActivity"
+            android:label="@string/title_activity_jaku_blog"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MisRutasUsuarioActivity"
+            android:label="@string/title_activity_mis_rutas_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VerMisRutasohYeahActivity"
+            android:label="@string/title_activity_ver_mis_rutasoh_yeah"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VerMisRutasODMActivitye"
+            android:label="@string/title_activity_ver_mis_rutas_ojos_de_medusa_activitye"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterForEmailActivity"
+            android:label="@string/title_activity_register_for_email"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".LogOutActivity" />
+        <activity
+            android:name=".ViewSharedRuoteActivity"
+            android:label="@string/title_activity_view_shared_ruote"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Jaku!</string>
+    <string name="action_settings">Mejor Ruta</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_lista">ListaActivity</string>
+    <string name="title_activity_login">Jaku!</string>
+    <string name="title_activity_profile">Perfil</string>
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="title_activity_edit_profile">Editar Perfil</string>
+    <string name="title_activity_mejor_ruta">Mis rutas</string>
+    <string name="title_activity_sitios_descripcion">Sitio turístico </string>
+    <string name="title_activity_lista_turisticos">Nuevo Sitio</string>
+    <string name="title_activity_blog_main">Lugares</string>
+    <string name="title_activity_main_tabed">MainTabedActivity</string>
+    <string name="title_activity_jaku_blog">Blog </string>
+    <string name="title_activity_registarse_main_this_is">Jaku!</string>
+
+
+    <string name="facebook_app_id">1886933531562744</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="title_activity_mis_rutas_usuario">Mis Rutas</string>
+    <string name="back_action">back_action</string>
+    <string name="action_agregar">action_agregar</string>
+    <string name="title_activity_ver_mis_rutasoh_yeah">Mapa ◙</string>
+    <string name="title_activity_ver_mis_rutas_ojos_de_medusa_activitye">Mapa ○</string>
+    <string name="google_colaps">google_colaps</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="linae_sep_init">_______________</string>
+    <string name="numero_for_star">0</string>
+    <string name="title_activity_register_for_email">Jaku!</string>
+    <string name="restaurante">Restaurante</string>
+    <string name="centro_m_dico">Centro Médico</string>
+    <string name="alerta">Alerta</string>
+    <string name="t_tulo">Título...☺</string>
+    <string name="servicio">Servicio</string>
+    <string name="hospedaje">Hospedaje</string>
+    <string name="ladrones">Ladrones</string>
+    <string name="compartir">Compartir</string>
+    <string name="title_activity_view_shared_ruote">Rutas de Otros Usuarios</string>
+
+
+    <string name="profile">-	En la parte superior puede encontrar los lugares turísticos de mayor preferencia en la ciudad, y en la parte inferior puede encontrar las opciones que brinda nuestra aplicación. </string>
+    <string name="mis_rutas">-	Aquí están guardadas todas las rutas que has grabado con la opción “Grabar rutas”, puedes verlas en el mapa o eliminarlas. </string>
+    <string name="la_ruta">-	Aquí puede observar una ruta que usted ha grabado, también cuenta con la opción de compartir, aquí todos los usuarios de la aplicación podrán ver su ruta.</string>
+    <string name="los_lugares">-	Aquí usted puede ver una lista con los lugares turísticos que algunos usuario han compartido, presione sobre la fotografía para desplegar la imagen y ver la descripción completa del mismo.</string>
+    <string name="guardar_lugar">-	Aquí usted podrá guardar un lugar turístico que le  haya pareció interesante, primero debe generar su ubicación para asegurarse que usted está en el lugar, luego podrá tomar una fotografía del lugar y finamente agregar en la cajas de texto todo lo que usted quiera dar a conocer.</string>
+-	En la parte superior de esta misma pantalla puede encontrar las opciones guardar o cancelar.
+        <string name="contact">- correo electronico: teamdevelopersapps@gmail.com \n
+        - numero de celular: 992342805
+        </string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

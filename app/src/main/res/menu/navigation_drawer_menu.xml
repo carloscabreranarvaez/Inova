@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_home"
+            android:icon="@mipmap/nv_draw_home"
+            android:title="Perfil" />
+
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_profile"
+            android:icon="@mipmap/nav_draw_profile"
+            android:title="editar Perfil" />
+        <item
+            android:id="@+id/item_navigation_drawer_grabarruta"
+            android:icon="@mipmap/nav_draw_tesure_map"
+            android:title="Grabar ruta" />
+        <item
+            android:id="@+id/item_navigation_drawer_misrutas"
+            android:icon="@mipmap/nav_draw_folder"
+            android:title="Mis rutas" />
+    </group>
+
+    <item android:title="Más Opciones">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_settings"
+
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/item_navigation_drawer_help_and_feedback"
+
+                android:title="Contactanos" />
+        </menu>
+    </item>
+
+</menu>

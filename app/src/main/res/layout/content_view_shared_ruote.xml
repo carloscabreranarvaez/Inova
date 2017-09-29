@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shared_rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    app:layout_collapseMode="pin"
+    tools:context="cifer.nova.ciferapp.inova.ViewSharedRuoteActivity"
+
+    tools:showIn="@layout/activity_view_shared_ruote">
+
+</android.support.v7.widget.RecyclerView>

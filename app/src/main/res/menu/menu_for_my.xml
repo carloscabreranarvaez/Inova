@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+    android:id="@+id/action_new"
+    android:icon="@mipmap/menu_white"
+    android:title="reloj"
+    app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/action_mapa"
+                android:icon="@mipmap/map_change"
+                android:showAsAction="always|withText"
+                android:title="Cambiar mapa" />
+            <item
+                android:id="@+id/action_help"
+                android:icon="@mipmap/menu_white"
+                android:title="Ayuda."
+                android:orderInCategory="200"
+                app:showAsAction="never"></item>
+
+        </menu>
+
+    </item>
+
+
+
+
+
+</menu>

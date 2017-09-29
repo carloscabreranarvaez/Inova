@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "860830622643",
+    "firebase_url": "https://starlit-brand-127316.firebaseio.com",
+    "project_id": "starlit-brand-127316",
+    "storage_bucket": "starlit-brand-127316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860830622643:android:4e0b0ebdf0063d93",
+        "android_client_info": {
+          "package_name": "cifer.nova.ciferapp.inova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860830622643-lsmokk814r713rttkjrovhjd8v408bfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cifer.nova.ciferapp.inova",
+            "certificate_hash": "b9ea7b25f12303f0ecf2bf89c1ee784550878ee9"
+          }
+        },
+        {
+          "client_id": "860830622643-gkedshdsfc7kt1es4d62pfv8alursfhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cifer.nova.ciferapp.inova",
+            "certificate_hash": "10fc058f9ba6c2402f03517cc4a6c44a1be863a2"
+          }
+        },
+        {
+          "client_id": "860830622643-iefvaq0culq2c296gikt2nicv0frlb2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWRQNLm4keGzHfflQeWXJHFmgKgv_OLhw"
+        },
+        {
+          "current_key": "AIzaSyBmbgTG1ci-1lLbXM0ouaNAMciuBZCXg2c"
+        },
+        {
+          "current_key": "AIzaSyBzGsi9jmIoNcyJG1PtU2fMxYYIG7azzcg"
+        },
+        {
+          "current_key": "AIzaSyAhGnm8jmW1rGLCi2eMdAcYZPRmrpCNzIc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860830622643-iefvaq0culq2c296gikt2nicv0frlb2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

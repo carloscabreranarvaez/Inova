@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cifer.nova.ciferapp.inova.RegisterForEmailActivity"
+    tools:showIn="@layout/activity_register_for_email">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/belen_jaku_min" />
+
+        <TextView
+            android:id="@+id/textView2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:paddingTop="30dp"
+            android:text="Jaku"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearregistool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/RegisEmailUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="E-mail..."
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/RegisEmailPassworm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password..."
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/RegisEmailentrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:text="Entrar"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/RegisEmailNewUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorControlActivated"
+            android:text="Regístrate"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/RegisEmailNewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Nombre..."
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/RegisEmailNewLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Apellido..."
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/RegisEmailNewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="E-mail..."
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textColorLink="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/RegisEmailNewPassworm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password..."
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/RegisEmailNewRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_weight="1"
+            android:text="Registrar"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

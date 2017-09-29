@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cifer.nova.ciferapp.inova.EditProfileActivity"
+    tools:showIn="@layout/activity_edit_profile">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/EditProfileImage"
+            android:layout_width="130sp"
+            android:layout_height="145sp"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/cast_album_art_placeholder" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="false"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="5dp"
+            android:clickable="false"
+            android:src="@drawable/pencil" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <EditText
+        android:id="@+id/EditNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tu cuenta será actualizada un en un lapso de 24 a partir de la última actualización." />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Tu código de usuario es: ."
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textprofileid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="serif-monospace"
+                android:hint="/*USER ID*/"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#b7b7b7"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/EditProfileGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Guardar"
+        android:textColor="@color/colorPrimary" />
+
+
+</LinearLayout>
