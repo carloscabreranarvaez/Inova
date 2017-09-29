@@ -236,7 +236,7 @@ public class ProfileActivity extends AppCompatActivity {
         opcionesCardViews.add(new OpcionesCardView(color2,faboption,R.mipmap.mymaps,"Mis Rutas"));
         opcionesCardViews.add(new OpcionesCardView(color3,faboption,R.drawable.world_map,"Rutas"));
         opcionesCardViews.add(new OpcionesCardView(color4,faboption,R.drawable.edit_profile,"Editar Perfil"));
-        //opcionesCardViews.add(new OpcionesCardView(color4,faboption,R.drawable.,"Cambio de moneda"));
+        opcionesCardViews.add(new OpcionesCardView(color4,faboption,R.mipmap.dollar,"Cambio de moneda"));
         opcionesCardViews.add(new OpcionesCardView(color5,faboption,R.mipmap.icons8_lout,"Cerrar Sesión"));
 
 

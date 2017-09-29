@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import cifer.nova.ciferapp.inova.CambioMonedaActivity;
 import cifer.nova.ciferapp.inova.Clases.OpcionesCardView;
 import cifer.nova.ciferapp.inova.EditProfileActivity;
 import cifer.nova.ciferapp.inova.LocationActivity;
@@ -88,7 +89,7 @@ public class OpcionesAdapter extends RecyclerView.Adapter<OpcionesAdapter.Opcion
                         //context.startActivity(im);
                         break;
                     case 4:
-                        Intent rantent = new Intent(context, LogOutActivity.class);
+                        Intent rantent = new Intent(context, CambioMonedaActivity.class);
                         rantent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         context.startActivity(rantent);
                         //context.startActivity(new Intent(context,JakuBlogActivity.class));
@@ -103,7 +104,9 @@ public class OpcionesAdapter extends RecyclerView.Adapter<OpcionesAdapter.Opcion
                         break;
 
                     case 5:
-
+                        Intent exit = new Intent(context, LogOutActivity.class);
+                        exit.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        context.startActivity(exit);
                         break;
                 }
             }

@@ -47,11 +47,13 @@
     <string name="la_ruta">-	Aquí puede observar una ruta que usted ha grabado, también cuenta con la opción de compartir, aquí todos los usuarios de la aplicación podrán ver su ruta.</string>
     <string name="los_lugares">-	Aquí usted puede ver una lista con los lugares turísticos que algunos usuario han compartido, presione sobre la fotografía para desplegar la imagen y ver la descripción completa del mismo.</string>
     <string name="guardar_lugar">-	Aquí usted podrá guardar un lugar turístico que le  haya pareció interesante, primero debe generar su ubicación para asegurarse que usted está en el lugar, luego podrá tomar una fotografía del lugar y finamente agregar en la cajas de texto todo lo que usted quiera dar a conocer.</string>
--	En la parte superior de esta misma pantalla puede encontrar las opciones guardar o cancelar.
-        <string name="contact">- correo electronico: teamdevelopersapps@gmail.com \n
+    - En la parte superior de esta misma pantalla puede encontrar las opciones guardar o cancelar.
+    <string name="contact">- correo electronico: teamdevelopersapps@gmail.com \n
         - numero de celular: 992342805
         </string>
-
+    <string name="title_activity_cambio_moneda">Cambio de moneda</string>
+    <string name="d_lares">Dólares:</string>
+    <string name="soles">Soles:</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

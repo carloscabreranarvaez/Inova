@@ -127,7 +127,11 @@
         <activity
             android:name=".ViewSharedRuoteActivity"
             android:label="@string/title_activity_view_shared_ruote"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CambioMonedaActivity"
+            android:label="@string/title_activity_cambio_moneda"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
