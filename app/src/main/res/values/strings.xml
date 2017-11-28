@@ -19,7 +19,9 @@
     <string name="title_activity_registarse_main_this_is">Jaku!</string>
 
 
-    <string name="facebook_app_id">1886933531562744</string>
+    <string name="facebook_app_id">172133180047222</string>
+    <string name="fb_login_protocol_scheme">fb172133180047222</string>
+    
     <string name="title_activity_mapa">Map</string>
     <string name="title_activity_mis_rutas_usuario">Mis Rutas</string>
     <string name="back_action">back_action</string>
