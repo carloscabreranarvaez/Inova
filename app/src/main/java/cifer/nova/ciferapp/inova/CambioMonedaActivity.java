@@ -35,7 +35,7 @@ public class CambioMonedaActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         convertir = (Button) findViewById(R.id.cbb_button);
         cambiar = (Button) findViewById(R.id.direccion_button);
-        //-------------------------------------------------------------------
+        //-----------------------------------------------------------------
         dolares  = (TextView) findViewById(R.id.dolarid);
         soles = (TextView) findViewById(R.id.solesid);
         resultado = (TextView) findViewById(R.id.resultaoid);
